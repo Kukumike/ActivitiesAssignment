@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Activities Assignment</string>
+    <string name="prof_activity">View Therapy Image</string>
+
+    <string name="back">Go Back</string>
+    <string name="welcome_text">Activities Assignment</string>
+    <string name="img1_activity">View Profile Image</string>
+    <string name="img2_activity">View Funny Image</string>
+    <string name="img1_message">Profile Image</string>
+    <string name="img2_message">Funny Image</string>
+    <string name="img3_message">Therapy Image</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:text="@string/welcome_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <Button
+        android:id="@+id/btn_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prof_activity"
+        android:background="@color/colorCount"
+        android:layout_marginTop="50sp"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/tv_message"
+        android:layout_alignEnd="@+id/tv_message"
+        android:layout_alignStart="@+id/tv_message"/>
+    <Button
+        android:id="@+id/btn_activity_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/img1_activity"
+        android:layout_below="@+id/btn_activity"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/colorWhite"
+        android:layout_alignRight="@+id/btn_activity"
+        android:layout_alignLeft="@+id/btn_activity" />
+    <Button
+        android:id="@+id/btn_activity_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/img2_activity"
+        android:layout_marginTop="10sp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/btn_activity_1"
+        android:layout_alignLeft="@+id/btn_activity_1"
+        android:layout_alignRight="@+id/btn_activity_1" />
+
+</RelativeLayout>
